@@ -1,0 +1,25 @@
+{
+"submission_name": "Auto-Test QA CCO-",
+"due_date": 2010335400000 ,
+"instructions": "",
+"source_locale": "en-US",
+"target_locale": ["de-DE"],
+"config" : {"is_select_only_new_files": false},
+"tasks_list": [
+       {
+      "cd_connector_node_type": "ContentfulNode",
+      "parentId": "s1bl5cecmtq9/contentfulAutomation",
+      "updatedAt": "Nov 11, 2019 04:15 AM CST",
+      "index": 0,
+      "node_id": "s1bl5cecmtq9/contentfulAutomation/1RcvDDwoOt5Lbz5N5d4sIv",
+      "name": "Contentful Automation Title",
+      "is_parent": 0,
+      "node_type": "Entry",
+      "sequence_number": 1,
+      "is_translatable": true,
+      "filename": "Contentful Automation_Contentful Automation Title.xml",
+      "pd_classifier": "GC_CCO",
+      "node_type_icon": ""
+       }
+       ]
+}

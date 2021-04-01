@@ -1,0 +1,335 @@
+{
+"submission_name": "Auto- Test QA CAK-",
+"due_date": 2010335400000 ,
+"instructions": "",
+"source_locale": "en_US",
+"target_locale": ["de_DE","fr_FR"],
+"config" : {"is_select_only_new_files": false},
+"tasks_list": [
+       {
+      "_links": {
+        "self": {
+          "href": "http://transperfect.mkp.akeneo.com/api/rest/v1/product-models/AutoProductModel"
+        }
+      },
+      "code": "AutoProductModel",
+      "family_variant": "tv",
+      "parent": null,
+      "categories": [
+        "Products_Model"
+      ],
+      "values": {
+        "name": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": "Auto Test Model"
+          }
+        ],
+        "brand": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": "akeneo"
+          }
+        ],
+        "RPL_Size": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": "R1_Small"
+          }
+        ],
+        "RPL_Color": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": "Green"
+          }
+        ],
+        "cloud_Name": [
+          {
+            "locale": "en_US",
+            "scope": null,
+            "data": "this is auto cloud name"
+          }
+        ],
+        "description": [
+          {
+            "locale": "en_US",
+            "scope": "ecommerce",
+            "data": "This is description auto test"
+          }
+        ],
+        "hbhore_TEXT": [
+          {
+            "locale": "en_US",
+            "scope": null,
+            "data": "text cloud led"
+          }
+        ],
+        "hbhore_Cloud": [
+          {
+            "locale": "en_US",
+            "scope": null,
+            "data": "text area cloud"
+          }
+        ],
+        "release_date": [
+          {
+            "locale": null,
+            "scope": "ecommerce",
+            "data": "2019-11-15T00:00:00 00:00"
+          }
+        ],
+        "hbhore_TEXTAREA": [
+          {
+            "locale": "en_US",
+            "scope": null,
+            "data": "text area one"
+          }
+        ],
+        "power_requirements": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": "10 test"
+          }
+        ],
+        "RPL_Two_Variant_Axis": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": "RPL_Two_AxisOne"
+          }
+        ]
+      },
+      "created": "2019-11-15T04:35:29 00:00",
+      "updated": "2019-11-15T04:37:24 00:00",
+      "associations": {
+        "PACK": {
+          "groups": [],
+          "products": [],
+          "product_models": []
+        },
+        "SUBSTITUTION": {
+          "groups": [],
+          "products": [],
+          "product_models": []
+        },
+        "UPSELL": {
+          "groups": [],
+          "products": [],
+          "product_models": []
+        },
+        "X_SELL": {
+          "groups": [],
+          "products": [],
+          "product_models": []
+        }
+      },
+      "metadata": {
+        "workflow_status": "working_copy"
+      },
+      "node_id": "AutoProductModel",
+      "_type": "model",
+      "name": "Auto Test Model.xml",
+      "path": "http://transperfect.mkp.akeneo.com/api/rest/v1/product-models/AutoProductModel",
+      "updated_date": "2019-11-15T04:37:24 00:00",
+      "node_type": "model",
+      "sequence_number": "",
+      "is_dir": false,
+      "is_parent": 0,
+      "filename": "Auto Test Model.xml",
+      "pd_classifier": "XML_Akeneo",
+      "node_type_icon": "https://connect-qa.translations.com/assets/Demandware/product.png"
+    },
+        {
+      "_links": {
+        "self": {
+          "href": "http://transperfect.mkp.akeneo.com/api/rest/v1/products/auto0001"
+        }
+      },
+      "identifier": "auto0001",
+      "family": "webcams",
+      "parent": null,
+      "groups": [],
+      "categories": [
+        "productsAuto"
+      ],
+      "enabled": true,
+      "values": {
+        "name": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": "Automation Product 01"
+          }
+        ],
+        "brand": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": "akeneo"
+          }
+        ],
+        "price": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": [
+              {
+                "amount": "2.00",
+                "currency": "EUR"
+              },
+              {
+                "amount": "3.00",
+                "currency": "USD"
+              }
+            ]
+          }
+        ],
+        "weight": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": {
+              "amount": "1.0000",
+              "unit": "KILOGRAM"
+            }
+          }
+        ],
+        "RPL_Size": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": "R1_Small"
+          }
+        ],
+        "RPL_Color": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": "Red"
+          }
+        ],
+        "cloud_Name": [
+          {
+            "locale": "en_US",
+            "scope": null,
+            "data": "this is cloud test one"
+          }
+        ],
+        "description": [
+          {
+            "locale": "en_US",
+            "scope": "ecommerce",
+            "data": "This is Automation product test"
+          }
+        ],
+        "hbhore_TEXT": [
+          {
+            "locale": "en_US",
+            "scope": null,
+            "data": "Auto test text"
+          }
+        ],
+        "hbhore_Cloud": [
+          {
+            "locale": "en_US",
+            "scope": null,
+            "data": "This is Auto text cloud"
+          }
+        ],
+        "isTranslatable": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": false
+          }
+        ],
+        "hbhore_TEXTAREA": [
+          {
+            "locale": "en_US",
+            "scope": null,
+            "data": "this is Auto text are one"
+          }
+        ],
+        "total_megapixels": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": "24"
+          }
+        ],
+        "maximum_frame_rate": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": 120
+          }
+        ],
+        "power_requirements": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": "1"
+          }
+        ],
+        "RPL_Two_Variant_Axis": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": "RPL_Two_AxisOne"
+          }
+        ],
+        "maximum_video_resolution": [
+          {
+            "locale": null,
+            "scope": null,
+            "data": "2560_x_2048"
+          }
+        ]
+      },
+      "created": "2019-11-15T04:28:38 00:00",
+      "updated": "2019-11-15T04:33:25 00:00",
+      "associations": {
+        "PACK": {
+          "groups": [],
+          "products": [],
+          "product_models": []
+        },
+        "SUBSTITUTION": {
+          "groups": [],
+          "products": [],
+          "product_models": []
+        },
+        "UPSELL": {
+          "groups": [],
+          "products": [],
+          "product_models": []
+        },
+        "X_SELL": {
+          "groups": [],
+          "products": [],
+          "product_models": []
+        }
+      },
+      "metadata": {
+        "workflow_status": "working_copy"
+      },
+      "node_id": "auto0001",
+      "_type": "product",
+      "name": "Automation Product 01.xml",
+      "path": "http://transperfect.mkp.akeneo.com/api/rest/v1/products/auto0001",
+      "updated_date": "2019-11-15T04:33:25 00:00",
+      "node_type": "product",
+      "sequence_number": "",
+      "is_dir": false,
+      "is_parent": 0,
+      "filename": "Automation Product 01.xml",
+      "pd_classifier": "XML_Akeneo",
+      "node_type_icon": "https://connect-qa.translations.com/assets/Demandware/product.png"
+    }
+       ]
+}

@@ -1,0 +1,34 @@
+{
+"submission_name": "Auto -Test QA ELOQUA-",
+"due_date": 2010335400000 ,
+"instructions": "",
+"source_locale": "en-US",
+"target_locale": ["de-DE","fr-FR"],
+"config" : {"is_select_only_new_files": false},
+"tasks_list": [
+ {
+      "cd_connector_node_type": "EloquaNode",
+      "createdDate": "1574224771",
+      "modifiedDate": "1574224778",
+      "folderId": "8089",
+      "node_id": "21644_Email",
+      "name": "Automation Email Test",
+      "is_parent": 0,
+      "node_type": "Email",
+      "sequence_number": 2,
+      "is_translatable": true
+    },
+    {
+      "cd_connector_node_type": "EloquaNode",
+      "createdDate": "1574239429",
+      "modifiedDate": "1574239433",
+      "folderId": "8090",
+      "node_id": "1781_LandingPage",
+      "name": "Automation Landing Page",
+      "is_parent": 0,
+      "node_type": "LandingPage",
+      "sequence_number": 2,
+      "is_translatable": true
+    }
+             ]
+}

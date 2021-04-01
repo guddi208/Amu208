@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="2" verbose="1" name="SFCC-CONNECTOR Suite"
+	annotations="JDK" parallel="methods">
+
+	<test name="SFCC_parameter">
+	
+		<parameter name="Sfcc_connector_key" value="96b72d5cfa1851b8de1cf36b54df3b97" />
+		<parameter name="Sfcc_json_path" value="C:\\Connector" />
+		
+		<classes>
+			<class name="Sanity.SFCC_Parameters" />
+		</classes>
+	</test>
+
+</suite>

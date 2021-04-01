@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="2" verbose="1" name="ELOQUA-CONNECTOR Suite"
+	annotations="JDK" parallel="methods">
+
+	<test name="ELOQUA Connector">
+		<classes>
+			<class name="com.gcc.connector.Sanity.ELOQUA" />
+		       
+		</classes>
+	</test>
+
+</suite>

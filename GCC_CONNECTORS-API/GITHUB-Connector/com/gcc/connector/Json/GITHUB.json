@@ -1,0 +1,29 @@
+{
+  "submission_name": "Auto-Github",
+  "due_date": 2010335400000,
+  "instructions": "check by QA with instructions",
+ "source_locale": "en-US",
+  "target_locale": ["de-DE","fr-FR"],
+  "config": {
+    "is_select_only_new_files": false
+  },
+  "tasks_list": [
+    {
+      "cd_connector_node_type": "GitHubNode",
+      "parentId": "master",
+      "objectId": null,
+      "createdDate": 1573115199000,
+      "modifiedDate": 1573115199000,
+      "commitID": null,
+      "node_id": "master/Auto-001.dcr",
+      "name": "Auto-001.dcr",
+      "is_parent": 0,
+      "node_type": "File",
+      "sequence_number": 1,
+      "is_translatable": true,
+      "filename": "Auto-001.dcr",
+      "pd_classifier": "GC_DCR",
+      "node_type_icon": ""
+    }
+  ]
+}

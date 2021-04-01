@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="2" verbose="1" name="CSMC-CONNECTOR Suite"
+	annotations="JDK" parallel="methods">
+	<!-- <test name="CSMC Connector"> <classes> <class name="com.gcc.connector.Sanity.CSMC" 
+		/> </classes> </test> -->
+
+
+	<listeners>
+		<listener class-name="BaseClass.TestListener" />
+	</listeners>
+
+	<test name="CSMC">
+
+		<parameter name="Csmc_connector_key"	value="db3d13518bc47cc5b4c8229854b94d41" />
+		<parameter name="Csmc_json_path" value="C:\\Connector" />
+
+		<classes>
+			<class name="com.gcc.connector.Sanity.CSMC" />
+		</classes>
+
+	</test>
+
+
+</suite>

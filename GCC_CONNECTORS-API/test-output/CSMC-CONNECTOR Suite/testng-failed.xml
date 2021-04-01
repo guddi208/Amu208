@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [CSMC-CONNECTOR Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="BaseClass.TestListener"/>
+  </listeners>
+  <test thread-count="2" parallel="methods" name="CSMC(failed)">
+    <parameter name="Csmc_json_path" value="C:\\Connector"/>
+    <parameter name="Csmc_connector_key" value="db3d13518bc47cc5b4c8229854b94d41"/>
+    <classes>
+      <class name="com.gcc.connector.Sanity.CSMC">
+        <methods>
+          <include name="readCCOSubmissionidprop"/>
+          <include name="startup"/>
+          <include name="readELOQUASubmissionidprop"/>
+          <include name="readZENDESKSubmissionidprop"/>
+          <include name="akeneoConncetorsetUp"/>
+          <include name="setUp"/>
+          <include name="csmcConnect"/>
+          <include name="readsfccSubmissionidprop"/>
+          <include name="readAKENEOSubmissionidprop"/>
+          <include name="submissionCSMCstatus" invocation-numbers="0"/>
+          <include name="readGitSubmissionidprop"/>
+          <include name="loadlog4J"/>
+          <include name="readCCOSessionidprop"/>
+          <include name="apisetUp"/>
+          <include name="readCSMCSubmissionidprop"/>
+          <include name="sfccConncetorsetUp"/>
+          <include name="gitConncetorsetUp"/>
+          <include name="readELOQUASessionidprop"/>
+          <include name="readAKENEOSessionidprop"/>
+          <include name="eloquaConncetorsetUp"/>
+          <include name="zendeskConncetorsetUp"/>
+          <include name="ccoConncetorsetUp"/>
+          <include name="setupURL"/>
+          <include name="sessionterminatesTC"/>
+          <include name="csmcConncetorsetUp"/>
+        </methods>
+      </class> <!-- com.gcc.connector.Sanity.CSMC -->
+    </classes>
+  </test> <!-- CSMC(failed) -->
+</suite> <!-- Failed suite [CSMC-CONNECTOR Suite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="BaseClass.TestListener" />
+	</listeners>
+
+	<test thread-count="5" name="Test">
+	<classes>
+
+			<class name="com.gcc.connector.Sanity.SFCC" />
+			<class name="com.gcc.connector.Sanity.CCO" />
+			<class name="com.gcc.connector.Sanity.ELOQUA" />
+			<class name="com.gcc.connector.Sanity.ZENDESK" />
+			<class name="com.gcc.connector.Sanity.CSMC" />
+			<class name="com.gcc.connector.Sanity.GITHUB" />
+			<class name="com.gcc.connector.Sanity.AKENEO" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

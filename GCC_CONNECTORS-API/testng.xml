@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite thread-count="5" name="Suite" verbose="1" junit="false"  annotations="JDK" preserve-order="true">
+
+	<listeners>
+		<listener class-name="BaseClass.TestListener" />
+	</listeners>
+
+
+	
+
+	<test name="ZENDESK">
+
+		<parameter name="Zendesk_connector_key"	value="404e126f367fef05ba570e7ffbeaa3bb" />
+		<parameter name="Zendesk_json_path" value="C:\\Connector" />
+
+		<classes>
+			<class name="com.gcc.connector.Sanity.ZENDESK" />
+		</classes>
+
+	</test>
+
+
+<test name="AKENEO">
+	
+		<parameter name="Akeneo_connector_key" value="fd68f611d3777b9c3e279f5fb2eb486c" />
+		<parameter name="Akeneo_json_path" value="C:\\Connector" />
+		
+		<classes>
+			<class name="com.gcc.connector.Sanity.AKENEO" />
+		</classes>
+		
+		</test>
+
+	
+	<test name="CSMC">
+
+		<parameter name="Csmc_connector_key"	value="db3d13518bc47cc5b4c8229854b94d41" />
+		<parameter name="Csmc_json_path" value="C:\\Connector" />
+
+		<classes>
+			<class name="com.gcc.connector.Sanity.CSMC" />
+		</classes>
+
+	</test>
+	<!-- <test name="SFCC">
+
+		<parameter name="Sfcc_connector_key" value="96b72d5cfa1851b8de1cf36b54df3b97" />
+		<parameter name="Sfcc_json_path" value="C:\\Connector" />
+
+		<classes>
+			<class name="com.gcc.connector.Sanity.SFCC" />
+		</classes>
+	</test> -->
+	
+	
+</suite> <!-- Suite -->

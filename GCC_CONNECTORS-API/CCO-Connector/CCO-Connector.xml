@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="2" verbose="1" name="CCO-CONNECTOR Suite"
+	annotations="JDK" parallel="methods">
+
+
+<listeners>
+		<listener class-name="BaseClass.TestListener" />
+	</listeners>
+    
+    
+	<test name="CCO Connector">
+		<classes>
+			<class name="com.gcc.connector.Sanity.CCO" />
+			
+            
+		</classes>
+	</test>
+
+</suite>

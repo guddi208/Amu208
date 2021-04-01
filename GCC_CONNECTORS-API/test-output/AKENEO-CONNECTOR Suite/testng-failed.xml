@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [AKENEO-CONNECTOR Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="BaseClass.TestListener"/>
+  </listeners>
+  <test thread-count="2" parallel="methods" name="AKENEO(failed)">
+    <parameter name="Akeneo_connector_key" value="fd68f611d3777b9c3e279f5fb2eb486c"/>
+    <parameter name="Akeneo_json_path" value="C:\\Connector"/>
+    <classes>
+      <class name="com.gcc.connector.Sanity.AKENEO">
+        <methods>
+          <include name="akeneoConnect"/>
+          <include name="readCCOSubmissionidprop"/>
+          <include name="startup"/>
+          <include name="submissionAKENEOstatus" invocation-numbers="0"/>
+          <include name="readELOQUASubmissionidprop"/>
+          <include name="readZENDESKSubmissionidprop"/>
+          <include name="sessionterminatesTC"/>
+          <include name="akeneoConncetorsetUp"/>
+          <include name="setUp"/>
+          <include name="readsfccSubmissionidprop"/>
+          <include name="readAKENEOSubmissionidprop"/>
+          <include name="readGitSubmissionidprop"/>
+          <include name="loadlog4J"/>
+          <include name="readCCOSessionidprop"/>
+          <include name="apisetUp"/>
+          <include name="readCSMCSubmissionidprop"/>
+          <include name="sfccConncetorsetUp"/>
+          <include name="gitConncetorsetUp"/>
+          <include name="readELOQUASessionidprop"/>
+          <include name="readAKENEOSessionidprop"/>
+          <include name="eloquaConncetorsetUp"/>
+          <include name="zendeskConncetorsetUp"/>
+          <include name="ccoConncetorsetUp"/>
+          <include name="setupURL"/>
+          <include name="csmcConncetorsetUp"/>
+        </methods>
+      </class> <!-- com.gcc.connector.Sanity.AKENEO -->
+    </classes>
+  </test> <!-- AKENEO(failed) -->
+</suite> <!-- Failed suite [AKENEO-CONNECTOR Suite] -->

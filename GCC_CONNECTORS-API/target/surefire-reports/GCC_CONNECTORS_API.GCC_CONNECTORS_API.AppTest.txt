@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: GCC_CONNECTORS_API.GCC_CONNECTORS_API.AppTest
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.392 sec

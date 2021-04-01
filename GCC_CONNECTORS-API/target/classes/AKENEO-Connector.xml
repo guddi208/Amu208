@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="2" verbose="1" name="AKENEO-CONNECTOR Suite"
+	annotations="JDK" parallel="methods">
+
+	
+	<listeners>
+		<listener class-name="BaseClass.TestListener" />
+	</listeners>
+	
+	<test name="AKENEO">
+	
+		<parameter name="Akeneo_connector_key" value="fd68f611d3777b9c3e279f5fb2eb486c" />
+		<parameter name="Akeneo_json_path" value="C:\\Connector" />
+		
+		<classes>
+			<class name="com.gcc.connector.Sanity.AKENEO" />
+		</classes>
+		
+		</test>
+	
+
+</suite>
